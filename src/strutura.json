@@ -1,0 +1,18 @@
+{
+  "pergunta": "Em que ano foi declara a lei áurea?",
+  "respostas": {
+    "1": "Em 1888",
+    "2": "Em 2000",
+    "3": "Em 1808",
+    "4": "Em 1936"
+  },
+  "resposta certa": "1",
+  "pergunta2": "Quantos rins tem o corpo humano?",
+  "respostas2": {
+    "1": "1 rim",
+    "2": "4 rins",
+    "3": "3 rins",
+    "4": "2 rins"
+  },
+  "resposta certa2": "4"
+}

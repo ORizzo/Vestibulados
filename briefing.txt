@@ -1,0 +1,3 @@
+arrumar a parte de loading e a troca de ui quando acertar ou errar(terminei), 
+e fazer um placar com quantos acertos(arrumar um contador)
+
