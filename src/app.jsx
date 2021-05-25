@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import Wait from "./components/wait";
 import Interface from "./components/interfaces/interface";
-import Interface2 from "./components/interfaces/interface2"
+import Interface2 from "./components/interfaces/interface2";
 
 export default function App() {
+  useEffect(() => {
+    document.title = "Vestibulados";
+  }, []);
   const [aInterface, setInterface] = useState(
     <div>
       <Interface setI={setI}></Interface>
