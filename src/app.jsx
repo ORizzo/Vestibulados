@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Wait from "./components/wait";
 import Interface from "./components/interfaces/interface";
 import Interface2 from "./components/interfaces/interface2";
