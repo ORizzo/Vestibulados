@@ -2,41 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
-.general{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.general {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 4rem;
 }
-.default{
-  background-color: #5B2C6F;
+.game {
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
 }
-.blue{
+.question {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.direitos {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .general {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  .game {
+    font-size: 0.5rem;
+    font-weight: 500;
+    display: block;
+  }
+  .question {
+    font-weight: 500;
+    font-size: 0.5rem;
+  }
+  .direitos {
+    font-weight: 600;
+    font-size: 0.5rem;
+  }
+}
+
+.default {
+  background-color: #5b2c6f;
+}
+.blue {
   background-color: blue;
 }
-.game{
-  font-size: 1rem;
-  font-weight: 500;
-  display: block
+.defaultQ {
+  background-color: #6c3483;
 }
-.question{
-  font-weight: 500;
-  font-size: 1rem;
+button {
+  background-color: #6c3483 !important;
+  outline: none !important;
 }
-.defaultQ{
-  background-color: #6C3483;
-}
-button{
-  background-color: #6C3483 !important;
-  outline:none !important;
-}
-button:hover{
+button:hover {
   transition: all 0.25s;
-  background-color: #4A235A !important;
+  background-color: #4a235a !important;
   font-size: 1.5rem !important;
-}
-.direitos{
-  font-weight: 600;
-  font-size: 1rem;    
 }

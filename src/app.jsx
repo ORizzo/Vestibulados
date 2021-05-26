@@ -12,6 +12,7 @@ export default function App() {
       <Interface setI={setI}></Interface>
     </div>
   );
+
   function setI() {
     setInterface(<Wait></Wait>);
     setTimeout(() => {
