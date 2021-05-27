@@ -6,15 +6,14 @@
     "3": "Em 1808",
     "4": "Em 1936"
   },
-  "resposta certa": "1",
-  "pergunta2": "Quantos rins tem o corpo humano?",
+  "pergunta2": "Qual desses vocábulos é similar a propor ou conceder?",
   "respostas2": {
-    "1": "1 rim",
-    "2": "4 rins",
-    "3": "3 rins",
-    "4": "2 rins"
+    "1": "Sessão",
+    "2": "Cessão",
+    "3": "Secção",
+    "4": "Seção"
   },
-  "resposta certa2": "4",
+  "resposta certa2": "2",
   "pergunta3": "Quantos dias, aproximadamente, a Lua demora para dar uma volta à Terra?",
   "respostas3": {
     "1": "28 dias",
