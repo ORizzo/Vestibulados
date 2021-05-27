@@ -6,7 +6,7 @@
     "3": "Em 1808",
     "4": "Em 1936"
   },
-    "resposta certa": "1",
+  "resposta certa": "1",
   "pergunta2": "Qual desses vocábulos é similar a propor ou conceder?",
   "respostas2": {
     "1": "Sessão",
@@ -78,7 +78,7 @@
   },
   "resposta certa9": "2",
 
-  "pergunta10": "Madagascar é banhado por que oceano?",
+  "pergunta10": "Madagascar é banhado por qual oceano?",
   "respostas10": {
     "1": "Oceano Atlântico",
     "2": "Oceano Antártico",
@@ -111,5 +111,23 @@
     "3": "Caracóis, lulas e aranhas",
     "4": "Lagostas, polvos e escorpiões"
   },
-  "resposta certa13": "1"
+  "resposta certa13": "1",
+
+  "pergunta14": "Período do Terror, ou Período dos Jacobinos teve como líder:",
+  "respostas14": {
+    "1": "Luís XVI de Bourbon",
+    "2": "Napoleão Bonaparte",
+    "3": "Maxiimilien de Robespierre",
+    "4": "Jean-Paul Marat"
+  },
+  "resposta certa14": "3",
+
+  "pergunta15": "Qual dessas alternativas possui um fenômeno físico?",
+  "respostas15": {
+    "1": "Sublimação da naftalina",
+    "2": "Apodrecimento de alimentos",
+    "3": "caramelizarão do açúcar",
+    "4": "Fogos de Artifícios"
+  },
+  "resposta certa15": "1"
 }
