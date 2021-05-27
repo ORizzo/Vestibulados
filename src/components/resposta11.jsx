@@ -4,18 +4,18 @@ import wrong from "./animation.json";
 import correct from "./correct.json";
 import struture from "../strutura.json"
 
-export default function Resposta(props) {
+export default function Resposta11(props) {
   const [ls, setls] = useState(0);
   async function core(b) {
     if (ls === 1) {
       return "on";
     }
     setls(1);
-    if (b === struture["resposta certa"]) {
-      setTimeout(() => props.setI("certo", 1), 1700);
+    if (b === struture["resposta certa11"]) {
+      setTimeout(() => props.setI("certo", 11), 1700);
       return "certo";
     } else {
-      setTimeout(() => props.setI("errado", 1), 1700);
+      setTimeout(() => props.setI("errado", 11), 1700);
       return "errado";
     }
   }
@@ -53,7 +53,7 @@ export default function Resposta(props) {
           }
           setGif1(150);
         }}>
-        {struture.respostas[1]}
+        {struture.respostas11[1]}
         <div>
           <Lottie
             options={defaultOptions}
@@ -77,7 +77,7 @@ export default function Resposta(props) {
           }
           setGif2(150);
         }}>
-        {struture.respostas[2]}
+        {struture.respostas11[2]}
         <div>
           <Lottie
             options={defaultOptions}
@@ -101,7 +101,7 @@ export default function Resposta(props) {
           }
           setGif3(150);
         }}>
-        {struture.respostas[3]}
+        {struture.respostas11[3]}
         <div>
           <Lottie
             options={defaultOptions}
@@ -125,7 +125,7 @@ export default function Resposta(props) {
           }
           setGif4(150);
         }}>
-        {struture.respostas[4]}
+        {struture.respostas11[4]}
         <div>
           <Lottie
             options={defaultOptions}

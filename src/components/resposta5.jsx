@@ -4,18 +4,18 @@ import wrong from "./animation.json";
 import correct from "./correct.json";
 import struture from "../strutura.json"
 
-export default function Resposta(props) {
+export default function Resposta5(props) {
   const [ls, setls] = useState(0);
   async function core(b) {
     if (ls === 1) {
       return "on";
     }
     setls(1);
-    if (b === struture["resposta certa"]) {
-      setTimeout(() => props.setI("certo", 1), 1700);
+    if (b === struture["resposta certa5"]) {
+      setTimeout(() => props.setI("certo", 5), 1700);
       return "certo";
     } else {
-      setTimeout(() => props.setI("errado", 1), 1700);
+      setTimeout(() => props.setI("errado", 5), 1700);
       return "errado";
     }
   }
@@ -41,7 +41,7 @@ export default function Resposta(props) {
   return (
     <div className="options rounded-xl m-12 mx-40">
       <button
-        className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl-"
+        className="rounded-xl m-12 mx-18 p-3 px-20 shadow-2xl-"
         onClick={async function oc() {
           if ((await core("1")) === "on") {
             return;
@@ -53,7 +53,7 @@ export default function Resposta(props) {
           }
           setGif1(150);
         }}>
-        {struture.respostas[1]}
+        {struture.respostas5[1]}
         <div>
           <Lottie
             options={defaultOptions}
@@ -65,7 +65,7 @@ export default function Resposta(props) {
         </div>
       </button>
       <button
-        className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl"
+        className="rounded-xl m-12 mx-18 p-3 px-20 shadow-2xl"
         onClick={async function oc() {
           if ((await core("2")) === "on") {
             return;
@@ -77,7 +77,7 @@ export default function Resposta(props) {
           }
           setGif2(150);
         }}>
-        {struture.respostas[2]}
+        {struture.respostas5[2]}
         <div>
           <Lottie
             options={defaultOptions}
@@ -89,7 +89,7 @@ export default function Resposta(props) {
         </div>
       </button>
       <button
-        className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl"
+        className="rounded-xl m-12 mx-18 p-3 px-20 shadow-2xl"
         onClick={async function oc() {
           if ((await core("3")) === "on") {
             return;
@@ -101,7 +101,7 @@ export default function Resposta(props) {
           }
           setGif3(150);
         }}>
-        {struture.respostas[3]}
+        {struture.respostas5[3]}
         <div>
           <Lottie
             options={defaultOptions}
@@ -113,7 +113,7 @@ export default function Resposta(props) {
         </div>
       </button>
       <button
-        className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl"
+        className="rounded-xl m-12 mx-18 p-3 px-20 shadow-2xl"
         onClick={async function oc() {
           if ((await core("4")) === "on") {
             return;
@@ -125,7 +125,7 @@ export default function Resposta(props) {
           }
           setGif4(150);
         }}>
-        {struture.respostas[4]}
+        {struture.respostas5[4]}
         <div>
           <Lottie
             options={defaultOptions}

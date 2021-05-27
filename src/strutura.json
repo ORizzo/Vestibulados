@@ -14,5 +14,102 @@
     "3": "3 rins",
     "4": "2 rins"
   },
-  "resposta certa2": "4"
+  "resposta certa2": "4",
+  "pergunta3": "Quantos dias, aproximadamente, a Lua demora para dar uma volta à Terra?",
+  "respostas3": {
+    "1": "28 dias",
+    "2": "31 dias",
+    "3": "1 dia",
+    "4": "365 dias"
+  },
+  "resposta certa3": "1",
+
+  "pergunta4": "Qual das alternativas contém apenas nomes de rios?",
+  "respostas4": {
+    "1": "São Francisco, Douro, Antártico",
+    "2": "Nilo, Amazonas, Mississipi",
+    "3": "Cáspio, Vermelho, Reno",
+    "4": "Danúbio, Jordão, Morto"
+  },
+  "resposta certa4": "2",
+
+  "pergunta5": "Indique quais as respectivas invenções dos inventores Alexander Graham Bell e Galileu Galilei.",
+  "respostas5": {
+    "1": "Lâmpada e avião",
+    "2": "Internet e televisão",
+    "3": "Telefone e termômetro",
+    "4": "Relógio e giroscópio"
+  },
+  "resposta certa5": "3",
+
+  "pergunta6": "Em que ordem aparecem as cores do arco-íris sempre?",
+  "respostas6": {
+    "1": "Amarelo, laranja, vermelho, azul, anil (ou índigo), verde e violeta",
+    "2": "Vermelho, laranja, violeta, anil (ou índigo), azul, verde e amarelo",
+    "3": "Amarelo, violeta, laranja, verde, vermelho, anil (ou índigo) e azul",
+    "4": "Vermelho, laranja, amarelo, verde, azul, anil (ou índigo) e violeta"
+  },
+  "resposta certa6": "4",
+
+  "pergunta7": "Homem Vitruviano é um desenho de qual artista famoso?",
+  "respostas7": {
+    "1": "Leonardo da Vinci",
+    "2": "Donatello",
+    "3": "Van Gogh",
+    "4": "Michelangelo"
+  },
+  "resposta certa7": "1",
+
+  "pergunta8": "De quem é a famosa frase 'Penso? logo existo?'",
+  "respostas8": {
+    "1": "Platão",
+    "2": "Galileu Galilei",
+    "3": "Descartes",
+    "4": "Sócrates"
+  },
+  "resposta certa8": "3",
+
+  "pergunta9": "Quem pintou 'Guernica?'",
+  "respostas9": {
+    "1": "Paul Cézanne",
+    "2": "Pablo Picasso",
+    "3": "Diego Riviera",
+    "4": "Tarsila do Amaral"
+  },
+  "resposta certa9": "2",
+
+  "pergunta10": "Madagascar é banhado por que oceano?",
+  "respostas10": {
+    "1": "Oceano Atlântico",
+    "2": "Oceano Antártico",
+    "3": "Oceano Pacífico",
+    "4": "Oceano Índico"
+  },
+  "resposta certa10": "4",
+
+  "pergunta11": "Quantas casas decimais tem o número pi ?",
+  "respostas11": {
+    "1": "Vinte",
+    "2": "Milhares",
+    "3": "Duas",
+    "4": "Infinitas"
+  },
+  "resposta certa11": "4",
+
+  "pergunta12": "As cantigas de Escárnio e Maldizer pertencem a qual escola literária",
+  "respostas12": {
+    "1": "Trovadorismo",
+    "2": "Modernismo",
+    "3": "Barroco",
+    "4": "Quinhentismo"
+  },
+  "resposta certa12": "1",
+  "pergunta13": "Qual das alternativas contém apenas animais cujos esqueletos são externos?",
+  "respostas13": {
+    "1": "Caracóis, caranguejos e lagostas",
+    "2": "Borboletas, caranguejos e peixes",
+    "3": "Caracóis, lulas e aranhas",
+    "4": "Lagostas, polvos e escorpiões"
+  },
+  "resposta certa13": "1"
 }

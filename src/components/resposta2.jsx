@@ -10,12 +10,12 @@ export default function Resposta2(props) {
     if (ls === 1) {
       return "on";
     }
-    setls(0);
+    setls(1);
     if (b === struture["resposta certa2"]) {
-      setTimeout(() => props.setI(), 1700);
+      setTimeout(() => props.setI("certo", 2), 1700);
       return "certo";
     } else {
-      setTimeout(() => props.setI(), 1700);
+      setTimeout(() => props.setI("errado", 2), 1700);
       return "errado";
     }
   }

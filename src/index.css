@@ -11,13 +11,18 @@
   font-size: 4rem;
 }
 .game {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   display: block;
 }
 .question {
   font-weight: 500;
   font-size: 1rem;
+}
+.ajust{
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: block;
 }
 .direitos {
   font-weight: 600;
