@@ -14,9 +14,13 @@ export default function Interface(props) {
         Você acertou {props.count} perguntas! {message}
       </div>
       <div className="game">
-        <button onClick={() => {
-          props.setI(0, "board")
-        }} className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl ">Jogar novamente</button>
+        <button
+          onClick={() => {
+            props.setI(0, "board");
+          }}
+          className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl ">
+          Jogar novamente
+        </button>
       </div>
       <div className="direitos py-10">
         Vestibulados™, Todos os direitos reservados.

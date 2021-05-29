@@ -39,7 +39,7 @@ export default function Resposta10(props) {
   const [Gif4, setGif4] = useState(0);
 
   return (
-    <div className="options rounded-xl m-12 mx-40 ajust">
+    <div className="options rounded-xl m-12 mx-40 ajustl">
       <button
         className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl"
         onClick={async function oc() {

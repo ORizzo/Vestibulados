@@ -2,44 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
-.general{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.general {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 5rem;
+  max-width: 100%;
 }
-.ajust4{
-  font-size: 0.3rem;
-}
-.default{
-  background-color: #5B2C6F;
-}
-.blue{
-  background-color: blue;
-}
-.game{
+.game {
   font-size: 1rem;
   font-weight: 500;
-  display: block
+  display: block;
 }
-.question{
+.question {
   font-weight: 500;
   font-size: 1rem;
 }
-.defaultQ{
-  background-color: #6C3483;
+.ajust{
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: block;
 }
-button{
-  background-color: #6C3483 !important;
-  outline:none !important;
+.ajustl{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: block;
 }
-button:hover{
-  transition: all 0.25s;
-  background-color: #4A235A !important;
-  font-size: 1.5rem !important;
-}
-.direitos{
+.direitos {
   font-weight: 600;
-  font-size: 1rem;    
+  font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .general {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  .game {
+    font-size: 0.5rem;
+    font-weight: 500;
+    display: block;
+  }
+  .question {
+    font-weight: 500;
+    font-size: 0.5rem;
+  }
+  .direitos {
+    font-weight: 600;
+    font-size: 0.6rem;
+  }
+}
+
+.default {
+  background-color: #5b2c6f;
+  max-width: 100%;
+}
+.defaultQ {
+  background-color: #6c3483;
+}
+button {
+  background-color: #6c3483 !important;
+  outline: none !important;
+}
+button:hover {
+  transition: all 0.25s;
+  background-color: #4a235a !important;
+  font-size: 1.5rem !important;
 }

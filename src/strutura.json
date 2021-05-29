@@ -113,12 +113,12 @@
   },
   "resposta certa13": "1",
 
-  "pergunta14": "Período do Terror, ou Período dos Jacobinos teve como líder:",
+  "pergunta14": "No periodo do terror qual o grupo que esteve no poder",
   "respostas14": {
-    "1": "Luís XVI de Bourbon",
-    "2": "Napoleão Bonaparte",
-    "3": "Robespierre",
-    "4": "Jean-Paul Marat"
+    "1": "Ludista",
+    "2": "Planície",
+    "3": "Jacobinos",
+    "4": "Girondinos"
   },
   "resposta certa14": "3",
 
