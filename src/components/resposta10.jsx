@@ -39,9 +39,9 @@ export default function Resposta10(props) {
   const [Gif4, setGif4] = useState(0);
 
   return (
-    <div className="options rounded-xl m-12 mx-40">
+    <div className="options rounded-xl m-12 mx-40 ajust">
       <button
-        className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl-"
+        className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl"
         onClick={async function oc() {
           if ((await core("1")) === "on") {
             return;

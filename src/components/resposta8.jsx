@@ -41,7 +41,7 @@ export default function Resposta8(props) {
   return (
     <div className="options rounded-xl m-12 mx-40">
       <button
-        className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl-"
+        className="rounded-xl m-12 mx-20 p-3 px-20 shadow-2xl"
         onClick={async function oc() {
           if ((await core("1")) === "on") {
             return;

@@ -6,7 +6,7 @@ export default function Interface4(props) {
   return (
       <div className="general text-gray-100 default">
         <div className="title">Vestibulados</div>
-        <div className="game">
+        <div className="game ajust">
           <Pergunta4></Pergunta4>
           <Respostas4 setI={props.setI}></Respostas4>
         </div>

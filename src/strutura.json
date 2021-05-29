@@ -1,5 +1,5 @@
 {
-  "pergunta": "Em que ano foi declara a lei áurea?",
+  "pergunta": "Em que ano foi declarada a lei áurea?",
   "respostas": {
     "1": "Em 1888",
     "2": "Em 2000",
@@ -7,7 +7,7 @@
     "4": "Em 1936"
   },
   "resposta certa": "1",
-  "pergunta2": "Qual desses vocábulos é similar a propor ou conceder?",
+  "pergunta2": "Qual desses vocábulos é similar a 'propor' ou 'conceder'?",
   "respostas2": {
     "1": "Sessão",
     "2": "Cessão",
@@ -42,18 +42,18 @@
   },
   "resposta certa5": "3",
 
-  "pergunta6": "Em que ordem aparecem as cores do arco-íris sempre?",
+  "pergunta6": "Qual o planeta mais quente do sistema solar?",
   "respostas6": {
-    "1": "Amarelo, laranja, vermelho, azul, anil (ou índigo), verde e violeta",
-    "2": "Vermelho, laranja, violeta, anil (ou índigo), azul, verde e amarelo",
-    "3": "Amarelo, violeta, laranja, verde, vermelho, anil (ou índigo) e azul",
-    "4": "Vermelho, laranja, amarelo, verde, azul, anil (ou índigo) e violeta"
+    "1": "Saturno",
+    "2": "Marte",
+    "3": "Vênus",
+    "4": "Mercúrio"
   },
-  "resposta certa6": "4",
+  "resposta certa6": "3",
 
   "pergunta7": "Homem Vitruviano é um desenho de qual artista famoso?",
   "respostas7": {
-    "1": "Leonardo da Vinci",
+    "1": "Da Vinci",
     "2": "Donatello",
     "3": "Van Gogh",
     "4": "Michelangelo"
@@ -63,7 +63,7 @@
   "pergunta8": "De quem é a famosa frase 'Penso? logo existo?'",
   "respostas8": {
     "1": "Platão",
-    "2": "Galileu Galilei",
+    "2": "Galileu",
     "3": "Descartes",
     "4": "Sócrates"
   },
@@ -117,7 +117,7 @@
   "respostas14": {
     "1": "Luís XVI de Bourbon",
     "2": "Napoleão Bonaparte",
-    "3": "Maxiimilien de Robespierre",
+    "3": "Robespierre",
     "4": "Jean-Paul Marat"
   },
   "resposta certa14": "3",
@@ -126,7 +126,7 @@
   "respostas15": {
     "1": "Sublimação da naftalina",
     "2": "Apodrecimento de alimentos",
-    "3": "caramelizarão do açúcar",
+    "3": "Caramelizarão do açúcar",
     "4": "Fogos de Artifícios"
   },
   "resposta certa15": "1"
